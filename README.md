@@ -4,7 +4,7 @@ radar plots to compare pokemon stats
 # Motivation
 I was going browsing through twitter #ggplot2 feed and came across a post by [FC_rstats](https://twitter.com/FC_rstats) about football/soccer player stats and although I don't like sports I really like the visualisation and decided to use it for something I think everyone likes..Pokemon.
 # Example
-![My image](northernned.github.com/pokemon-radar-plot/examples/original_legendary_birds.png)
+![My image](examples/original_legendary_birds.png)
 # Libraries and Resources Used
  - [ggplot2](http://ggplot2.tidyverse.org/)
  - [Pokemondb Pokedex](https://pokemondb.net/pokedex/national)
