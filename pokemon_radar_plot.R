@@ -1,5 +1,6 @@
 # import libraries
 library(ggplot2)
+library(palettetown)
 library(png)
 
 # create the data with the stats for chosen pokemon
@@ -14,9 +15,10 @@ Zapdos <- c(HP = 90, Attack = 90,
             Defense = 85, Sp.Atk = 125, 
             Sp.Def = 90, Speed = 100)
 
-Articuno_blue <- "#94c5ff"
-Moltres_red <- "#d50808"
-Zapdos_yellow <- "#ffd541"
+# Reason for hard coding Moltres' colour is because he shares a similar primary colour as Zapdos
+Moltres_red <- "#E80000"
+Zapdos_yellow <- pokepal('Zapdos', 1)
+Articuno_blue <- pokepal('Articuno', 1)
 
 data <- rbind(Articuno, Moltres, Zapdos)
 
@@ -131,7 +133,7 @@ pokemon3_title <- gsub('([[:upper:]])',
                        '\\1',
                        pokemon_database[3])
 # Start the png to create a hi-res image of the plot
-png(file="original_legendaries.png",
+png(file="examples\\original_legendary_birds.png",
     width = 800,
     height = 900,
     bg = "transparent")

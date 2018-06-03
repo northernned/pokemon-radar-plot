@@ -8,7 +8,7 @@ I was going browsing through twitter #ggplot2 feed and came across a post by [FC
 # Libraries and Resources Used
  - [ggplot2](http://ggplot2.tidyverse.org/)
  - [Pokemondb Pokedex](https://pokemondb.net/pokedex/national)
- - [Pokepalettes](http://pokepalettes.com/)
+ - [Palettetown](https://github.com/timcdlucas/palettetown)
 
 # Future Ideas
 I think it would be awesome to have a shiny app that allows you to select the pokemon you want to compare so you can have a wide variety of plots instead of the ones I have selected here
