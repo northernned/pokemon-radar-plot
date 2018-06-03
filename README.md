@@ -7,7 +7,7 @@ I was going browsing through twitter #ggplot2 feed and came across a post by [FC
 ![My image](examples/original_legendary_birds.png)
 # Libraries and Resources Used
  - [ggplot2](http://ggplot2.tidyverse.org/)
- - [Pokemondb Pokedex](https://pokemondb.net/pokedex/national)
+ - [PNG function](https://www.rdocumentation.org/packages/grDevices/versions/3.4.1/topics/png)
  - [Palettetown](https://github.com/timcdlucas/palettetown)
 
 # Future Ideas
